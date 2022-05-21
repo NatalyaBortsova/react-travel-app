@@ -11,12 +11,14 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <Destinations />
-      <Search />
-      <Selects />
-      <CarouselImg/>
-      <Footer/>
+      <main>
+        <Hero />
+        <Destinations />
+        <Search />
+        <Selects />
+        <CarouselImg />
+      </main>
+      <Footer />
     </div>
   );
 }
